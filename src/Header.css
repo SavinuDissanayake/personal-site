@@ -1,0 +1,80 @@
+.background {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-repeat: none;
+  height: 800px;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 500;
+  padding-right: 30px;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.titleMiddle {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.whiteNav {
+  background-color: white;
+  color: black;
+}
+
+.sectionOneTitle {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sectionTwoTitle {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.middleContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 400px;
+  color: white;
+}
+
+.middleTitle {
+  letter-spacing: 5px;
+  font-size: 45px;
+  font-weight: 600;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middleText {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

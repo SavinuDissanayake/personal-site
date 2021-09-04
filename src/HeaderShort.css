@@ -1,0 +1,63 @@
+.shortMainConainer {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  width: 100%;
+}
+
+.shortTopContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  padding-bottom: 13px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.anime {
+  transform: translateY(20s);
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 10s;
+  border-bottom: 1px solid black;
+}
+
+.shortTitle {
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 5%;
+}
+
+.shortTitle:hover {
+  cursor: pointer;
+}
+
+.shortIcon {
+  padding-right: 5%;
+}
+
+.shortContent {
+  font-size: 17px;
+  font-weight: 500;
+  background-color: white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 5%;
+}
+
+.shortContent:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.shortBottomContainer {
+  position: fixed;
+  top: 75px;
+  width: 100%;
+}
+
+.shortContentHide {
+  display: none;
+}

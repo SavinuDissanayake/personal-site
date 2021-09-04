@@ -1,0 +1,99 @@
+.projectsContainer {
+  display: flex;
+  margin-bottom: 30%;
+  width: 100%;
+}
+
+.projectsField {
+  margin-top: 100px;
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 100%;
+}
+
+.projectsHeader {
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+.repositoryTitle {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.projectTable {
+  margin-top: 30px;
+}
+
+.tableTitles {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.tableProTitle {
+  display: flex;
+  padding-left: 2%;
+  width: 35%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-right: 1px solid black;
+}
+
+.project_con {
+  display: flex;
+  width: 100%;
+  border-left: 1px solid rgb(190, 190, 190);
+}
+
+.tableContent {
+  display: flex;
+  width: 35%;
+  padding-left: 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  border-right: 1px solid rgb(190, 190, 190);
+}
+
+.decriptiveProjects {
+  background-color: black;
+  color: white;
+}
+
+.projectListContainer {
+  padding-top: 70px;
+  padding-left: 7%;
+  padding-right: 7%;
+
+  padding-bottom: 70px;
+}
+
+.projTitle {
+  font-size: 28px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.projDescrip {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.projDate {
+  padding-bottom: 5px;
+}
+
+.projDescrip {
+  margin-top: 30px;
+}
+
+.linkStyling:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+.LinkStyling:hover {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}

@@ -1,0 +1,68 @@
+.contactContainer {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-top: 90px;
+  padding-top: 30px;
+  background-color: black;
+  padding-bottom: 30px;
+  height: 100%;
+}
+
+.SubmitMessageContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+#inputField {
+  border: none;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.inputMessage {
+  display: flex;
+  margin-top: 40px;
+  border: 1px solid black;
+  height: 40px;
+  border-radius: 10px;
+  align-items: center;
+  width: 80%;
+  background-color: white;
+}
+
+.postButton {
+  display: flex;
+  margin-top: 40px;
+  background-color: white;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.postButton:hover {
+  cursor: pointer;
+  background-color: rgb(190, 186, 186);
+}
+
+.message {
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.MessageUserName {
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+
+.messageDate {
+  font-size: 10px;
+  margin-bottom: 10px;
+}

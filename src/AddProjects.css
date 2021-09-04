@@ -1,0 +1,28 @@
+.prjectAddTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+.projectGitLink {
+  width: 495px;
+}
+
+.projectlanguages {
+  width: 495px;
+}
+
+.contentAddProject {
+  margin-left: 25%;
+}
+
+.ProjectTitle {
+  width: 495px;
+}
+
+.projectButton {
+  padding: 10px;
+  width: 100px;
+}

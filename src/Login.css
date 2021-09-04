@@ -1,0 +1,120 @@
+.loginContainer {
+  display: flex;
+  height: 900px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginForm {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.loginTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-size: 35px;
+  letter-spacing: 5px;
+  border-bottom: 1px solid black;
+}
+
+#username {
+  width: 100%;
+  border: none;
+}
+
+.usernameInput {
+  margin-top: 40px;
+  border: 1px solid black;
+  height: 40px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#password {
+  width: 100%;
+  border: none;
+}
+
+.passwordInput {
+  margin-top: 25px;
+  border: 1px solid black;
+  height: 40px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.loginButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-top: 7%;
+}
+
+.login {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 40%;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.login:hover {
+  cursor: pointer;
+  background-color: rgb(190, 186, 186);
+}
+
+.createButton:hover {
+  cursor: pointer;
+  background-color: rgb(190, 186, 186);
+}
+
+.createButton {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 40%;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.usernameInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+#username {
+  align-items: center;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.passwordInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+#password {
+  align-items: center;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
